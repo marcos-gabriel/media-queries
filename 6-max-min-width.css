@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .container{
+        font-size: 20px;
+        color: magenta;
+        background-color: mediumslateblue;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 300px) {
+    .container{
+        font-size: 15px;
+        color: lightseagreen;
+        background-color: mediumblue;
+        padding: 20px;
+    }
+}

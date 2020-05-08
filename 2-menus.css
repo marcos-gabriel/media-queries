@@ -1,0 +1,27 @@
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: orchid;
+    padding-left: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: midnightblue;
+    padding: 10px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+a:hover{
+    color: orchid;
+    background-color: midnightblue;
+}
+
+@media screen and (max-width: 600px){
+    ul a{
+        float: none;
+        width: 100%;
+    }
+}

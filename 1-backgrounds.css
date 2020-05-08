@@ -1,0 +1,19 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    background: yellowgreen;
+}
+
+@media screen and (max-width: 992px){
+    body{
+        background: lightseagreen;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background: mediumorchid;
+    }
+}

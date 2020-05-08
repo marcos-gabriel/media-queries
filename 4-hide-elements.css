@@ -1,0 +1,10 @@
+.hide{
+    background-color: yellow;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .hide{
+        display: none;
+    }
+}

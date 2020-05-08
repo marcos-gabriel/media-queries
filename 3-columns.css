@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    border:1px solid white;
+    flex: 25%;
+    padding: 10px;
+    background: #d3d3d3;
+}
+
+@media screen and (max-width: 992px) {
+    .coluna{
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .linha{
+        flex-direction: column;
+    }
+
+}
